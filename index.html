@@ -4,20 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gemflix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gradient.css">
 </head>
 <body>
+    <nav>
+        <div class="logo">GEMFLIX</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">New & Popular</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+    </nav>
     <main>
         <h1>Who is watching?</h1>
         <div class="profiles">
             <div class="profile">
-                <img src="/assets/profile01.png" alt="Profile 1" style="width: 100px; height: 100px;">
+                <img loading="lazy" src="/assets/profile01.png" alt="Profile 1" style="width: 200px; height: 200px;">
                 <p>Profile 1</p>
             </div>
             <div class="profile">
-                <img src="/assets/profile02.png" alt="Profile 2" style="width: 100px; height: 100px;">
+                <img loading="lazy" src="/assets/profile02.png" alt="Profile 2" style="width: 200px; height: 200px;">
                 <p>Profile 2</p>
             </div>
+            <div class="profile">
+                <img loading="lazy" src="/assets/profile03.png" alt="Profile 3" style="width: 200px; height: 200px;">
+                <p>Profile 3</p>
+            </div>
+            <div class="profile">
+                <img loading="lazy" src="/assets/profile04.png" alt="Profile 4" style="width: 200px; height: 200px;">
+                <p>Profile 4</p>
+            </div>
         </div>
+        <button class="manage-btn">Manage Profiles</button>
     </main>
 </body>
 </html>
