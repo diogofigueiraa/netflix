@@ -1,0 +1,14 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-color: black;
+    background-image:
+        radial-gradient(circle at 20% 20%, rgba(255, 0, 0, 0.8), transparent 45%),
+        radial-gradient(circle at 90% 10%, rgba(255, 0, 0, 0.6), transparent 35%),
+        radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 1), rgba(10, 10, 10, 1) 60%),
+        linear-gradient(120deg, rgba(10, 10, 10, 0.95) 0%, rgba(0, 0, 0, 0.75) 50%, rgba(20, 0, 0, 0.5) 100%);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
