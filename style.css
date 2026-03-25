@@ -63,6 +63,12 @@
             pointer-events: none;
             z-index: -1;
         }
+        .heroimg {
+            width: 100%;
+            height: 400px;
+            background-image: url(/assets/interstellar-1920-590932.jpg);
+            background-size: cover;            
+        }
         ul {
             list-style-type: none;
             margin: 0;
@@ -94,3 +100,9 @@
             justify-content: flex-start;
             align-items: center;
         }
+        .herotitle {
+            font-size: 48px;
+            color: black;
+            text-align: left;
+        }   
+        
